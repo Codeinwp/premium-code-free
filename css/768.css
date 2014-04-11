@@ -1,0 +1,981 @@
+body { max-width: 768px; overflow-x: hidden;}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------->>>>>> Display None */
+
+#headeradbig, #headeradsmall, .fcenter .flogo, #socialmedia, #socialmediatwo, #portfolio-one .item .imghover .pzoom, #portfolio-two .item .imghover .pzoom,
+
+#portfolio-one .item .imghover .plinkarr { display: none; }
+
+/* ----------------------------------------------------------------------------------------->>>>>> Display Block */
+
+#mobilenavexpand, #rwdlogo { display: block !important; }
+
+
+
+/* ----------------------------------------------------------------------------------------->>>>>> Width 100%; */
+
+#topbarcenter, #searchexpand, .generalheadline h3, #pricetables, #featuresthree .feat ul, #featuresthree .feat ul li, .testimonialover .testimonial, .testimonialover,
+
+.fcenter, #featuresone .featcenter, #featuresfour .featcenter, #address .local, #address .contactdetails, #portfolio-three .item, #portfolio-three .pthreecontent h3, #portfolio-three .pthreecontent p,
+
+#portfolio-four, .portfoliorelated .item .hover  { width: 100%;}
+
+
+
+/* ----------------------------------------------------------------------------------------->>>>>> Height auto */
+
+
+
+#featurestwo, #featurestwo .featcenter, #featuresfour .featcenter, #featuresone, #featuresone .featcenter, #clients, .clientscenter { height: auto !important; max-height: none; }
+
+
+
+/* Header section */
+
+header {
+
+	min-height: 50px;
+
+	height: auto;
+
+}
+
+
+
+
+
+#searchexpand .submit { width: 10%; }
+
+
+
+
+
+#rwdlogo {
+
+	display: none !important;
+
+}
+
+
+
+#mobilenav {
+
+	width: 94%;
+
+	padding: 0px 4%;
+
+	overflow: hidden;
+
+	background: #4b5157;
+
+}
+
+
+
+#mobilenav a {
+
+	width: 100%;
+
+	padding: 10px 0px;
+
+	border-bottom: 1px solid #31373d;
+
+	display: block;
+
+	color: #fff;
+
+}
+
+
+
+#headercenter {
+
+	width: 100%;
+
+	height: 120px;
+
+	margin: 0px auto;
+
+}
+
+
+
+#logo {
+
+	width: 210px;
+
+	height: 92px;
+
+	margin: 35px auto !important;
+
+	float: none;
+
+}
+
+
+
+#logo img { max-width: 100%; }
+
+
+
+
+
+#topslider .slide {
+
+	min-width: 468px !important;
+
+	max-width: 480px !important;
+
+}
+
+
+
+#topslider .slide p { width: 100%; }
+
+
+
+#featurestwo .featcenter {
+
+	width: 97%;
+
+	margin-left: 3%;
+
+	overflow: hidden;
+
+	margin: 0px;
+
+}
+
+
+
+#featurestwo .feat {
+
+	width: 30%; 
+
+	text-align: center;
+
+}
+
+
+
+#featurestwo .feat .img {
+
+	float: none;
+
+	margin: 0px auto;
+
+	margin-top: 5px;
+
+}
+
+
+
+#featurestwo .center { margin: 0px 25px; }
+
+#featurestwo .feat h2 { margin: 10px 0px; }
+
+
+
+#featurestwo .featcontent {
+
+	width: 100%;
+
+	float: none;
+
+	margin-left: 0px;
+
+}
+
+
+
+.headlinetwo {
+
+	max-width: 94%;
+
+	width: auto !important;
+
+	margin-left: 3%;
+
+}
+
+
+
+#wrap {
+
+	max-width: 100%;
+
+	margin-top: 0px;
+
+}
+
+
+
+#pricetables .table {width: 30%;}
+
+
+
+.featable { margin: 0px 5%; }
+
+
+
+#featuresthree, #featuresfour { 
+
+	width: 97%;
+
+	margin-left: 2%;
+
+}
+
+
+
+#featuresthree .feat, #featuresone .feat {
+
+	width: 23%;
+
+	margin-right: 2%;
+
+}
+
+
+
+#featuresthree .feat ul li {margin-bottom: 5px;}
+
+
+
+.toggle {
+
+	width: 96%;
+
+	margin-left: 2%;
+
+	float: none !important;
+
+}
+
+
+
+.toggle-content { width: 95.8%;}
+
+
+
+#testimonials {
+
+	width: 83.5%;
+
+	height: 210px;
+
+	padding: 45px;
+
+	color: #fff;
+
+	background: #3c6da7;
+
+	margin: 40px 0 50px 2%;
+
+}
+
+
+
+.testimonialover .test-content {width: 75%;}
+
+
+
+.fcenter .fdesc, .fcenter nav {
+
+	width: 26%;
+
+	min-height: 100px;
+
+	float: left;
+
+	margin: 50px 0px 0px 5%;
+	
+
+}
+
+
+.fcenter{
+
+	padding-top: 1px;
+
+}
+
+/*
+.fcenter .socialmedia {
+
+	width: 74%;
+
+	margin: 22px auto;
+
+	margin-bottom: 0px;
+
+}
+*/
+
+
+#featuresfour .item {
+
+	width: 31%;
+
+	margin-right: 2%;
+
+}
+
+
+
+#featuresfour .center { margin: 0px 2% 0px 0px;}
+
+
+
+.headlineone { float: none;}
+
+
+
+.textboxone {
+
+	width: 94%;
+
+	height:auto;
+
+	float: none;
+
+	margin-left: 2%;
+
+}
+
+
+
+.textboxone h3, .headlinethree {margin: 15px 0px;}
+
+
+
+.textboxtwo {
+
+	width: 96%;
+
+	margin-left: 2%;
+
+	float: none;
+
+}
+
+
+
+.ourworkitems {
+
+	width: 96%;
+
+	margin-left: 2%;
+
+	float: none;
+
+}
+
+
+
+#clients {overflow: hidden;}
+
+
+
+#content, #sidebar {
+
+	width: 96%;
+
+	margin: 40px 0px 0px 2%;
+
+	float: none!important;
+
+}
+
+
+
+#sidebar { 
+
+	margin-top: 0px;
+
+	width: 112% !important;
+
+	overflow: hidden;
+
+}
+
+
+
+#sidebar .widget {
+
+	float: left;
+
+	margin-right: 14%;
+
+}
+
+
+
+.post .postcontent {
+
+	width: 81%;
+
+	height: auto;
+
+	float: left;
+
+	position: relative;
+
+	padding: 15px;
+
+	border: 1px solid #ededed;
+
+}
+
+
+
+.generalheadline {text-align: center;}
+
+
+
+.postcalign { width: 50%; }
+
+
+
+.postfull .img {
+
+	width: 30%;
+
+	max-height: 190px;
+
+	height: auto;
+
+}
+
+
+
+.postfull .postcalign {
+
+	width: 62%;
+
+	height: auto;
+
+	position: relative;
+
+}
+
+
+
+.postfull .postcalign .readmore {
+
+	float: left; 
+
+	bottom: -5px;
+
+	left: -57%;
+
+	position: absolute;
+
+}
+
+
+
+.postfull {
+
+	width: 91.5%;
+
+	margin: 22px 0px 0px 2%;
+
+}
+
+
+
+#generalnavi {
+
+	width: 96%;
+
+	margin-left: 2%;
+
+}
+
+
+
+#posttwofull, .posttwohalfwrap {
+
+	width: 98%;
+
+	margin-left: 2%;
+
+}
+
+
+
+.posttwofull {
+
+	width: 43%;
+
+	margin: 20px 2.5% 20px 0px;
+
+}
+
+
+
+.posttwohalfwrap .posttwofull {
+
+	width: 36%;
+
+	margin: 20px 2.5% 20px 0px;
+
+}
+
+
+
+.tabletnavipadd { padding-top: 20px; }
+
+
+
+.singledetails {height: 120px;}
+
+
+
+.singledetails .postdetails {
+
+	width: 100% !important;
+
+	float: none;
+
+}
+
+
+
+.singledetails .socialshare {
+
+	width: auto!important;
+
+	float: none;
+
+}
+
+
+
+.singleaboutauthor .abouttext {
+
+	width: 81%;
+
+	height: auto;
+
+	float: left;
+
+	margin: 10px 0px 0px 40px;
+
+}
+
+
+
+.singleaboutauthor {height: auto; overflow: hidden;}
+
+
+
+.singlepostrelated { overflow: hidden; padding-bottom: 10px;}
+
+
+
+.singlepostrelated .item, .singlepostrelated .item .hover { width: 20% !important; }
+
+
+
+.commnav {
+
+	width: 142px;
+
+	height: 66px;
+
+	display: block;
+
+	color: #5395cf;
+
+	float: none;
+
+}
+
+
+
+.commentscount .counter {
+
+	width: 590px;
+
+	height: 36px;
+
+	float: left;
+
+	font-size: 19px;
+
+	font-weight: 700;
+
+	color: #5d6b75;
+
+}
+
+
+
+.commentscount {
+
+	width: 100%;
+
+	height: 102px;
+
+	display: block;
+
+	line-height: 66px;
+
+}
+
+
+
+.portfoliohead {
+
+	width: 96%;
+
+	margin: 30px 0px 0px 2%;
+
+}
+
+
+
+
+
+.error-search { margin: 40px 0px 40px 32%; }
+
+
+
+.erroror {
+
+	width: 100%;
+
+	text-align: center;
+
+}
+
+
+
+.newsletterpagewidget {
+
+	margin: 20px 0px 40px 2%;
+
+	float: left;
+
+}
+
+
+
+.comins-text {
+
+	width: 50%;
+
+	margin: 40px 0px 40px 0px;
+
+	float: left;
+
+	text-align: center;
+
+}
+
+
+
+#contactform {
+
+	width: 60%;
+
+	margin-left: 2%;
+
+	overflow: hidden;
+
+}
+
+
+
+#contactform .item { width: 100%; }
+
+
+
+#contactform .item input, #contactform textarea {width: 80% !important;}
+
+
+
+#address {
+
+	width: 27%;
+
+	min-height: 220px;
+
+	float: left;
+
+	font-size: 18px;
+
+	margin: 110px 0px 45px 3%;
+
+}
+
+
+
+#contact-map {
+
+	width: 48%;
+
+	margin-left: 2%;
+
+}
+
+
+
+.contact-twitter { 
+
+	float: left; 
+
+	margin-left: 56px;
+
+}
+
+
+
+.twohalf {
+
+	width: 46%;
+
+	margin-right: 2%;
+
+}
+
+
+
+.threequarter {
+
+	width: 31%;
+
+	margin-right: 2%;
+
+}
+
+
+
+.fourquarter, .imglistv {
+
+	width: 23%;
+
+	margin-right: 2%;
+
+}
+
+
+
+.threefourth {
+
+	width: 75%;
+
+	float: left;
+
+}
+
+
+
+.imglisth article {width: 73%;}
+
+
+
+#portfolio-one .item .imghover, #portfolio-two .item .imghover {
+
+	width: 100%;
+
+	height: 120px;
+
+	position: absolute;
+
+	top: 0px;
+
+	background: transparent;
+
+}
+
+
+
+#portfolio-one, #portfolio-two, #portfolio-three { 
+
+	width: 100%; 
+
+}
+
+
+
+#portfolio-one .item {
+
+	height: 160px;
+
+	overflow: hidden;
+
+	width: 23%;
+
+	margin-left: 1.5%;
+
+	margin-right: 0px;
+
+	margin-bottom: 10px;
+
+}
+
+
+
+#portfolio-one .item .imghover .plink {
+
+	width: 70%;
+
+	height: 150px;
+
+	overflow: hidden;
+
+}
+
+
+
+#portfolio-two .item {
+
+	width: 30.5%;
+
+	margin-left: 2%;
+
+	margin-right: 0px;
+
+	height: 230px;
+
+}
+
+
+
+#portfolio-two .item .imghover .plink {
+
+	width: 80%;
+
+	height: 145px;
+
+}
+
+
+
+#portfolio-three {
+
+	width: 96%;
+
+	margin-left: 2%;
+
+}
+
+
+
+#portfolio-three .item .img {width: 30%;}
+
+
+
+#portfolio-three .pthreecontent {
+
+	width: 67%;
+
+	margin-left: 3%;
+
+}
+
+
+
+#portfolio-four .item {
+
+	width: 47%;
+
+	margin-left: 2%;
+
+	margin-right: 0px;
+
+}
+
+
+
+#portfolio-slider {
+
+	width: 100%;
+
+	height: 500px;
+
+}
+
+
+
+#portfolio-slider .slide {
+
+	width: 100%;
+
+	height: 500px;
+
+}
+
+
+
+.portfoliorelated {
+
+	width: 100% !important;
+
+	margin-top: 0px !important;
+
+	margin-bottom: 50px;
+
+	overflow: hidden;
+
+}
+
+
+
+.portfoliorelated .item {
+
+	width: 22.2%;
+
+	margin-left: 0px;
+
+	margin-right: 2% !important;
+
+}
+
+
+#mobilenav{
+	display: none !important;
+}
+
+
+
+
+#searchexpand fieldset{
+	width: 365px;
+	margin: 0 auto;
+}
+
+
+#searchexpand  .search {
+	width: 300px;
+}
+
+
+
+.rwdfsocial{
+
+	text-align: center;
+
+}
+
+.fcenter .socialmedia .item {
+
+    display: inline-block;
+
+}
+
+.fcenter{
+	width: 100%;
+}
+
+.fcenter .socialmedia {
+	width: 75%;
+	margin-left: 12%;
+}
