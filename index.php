@@ -60,7 +60,6 @@
 				<div id="generalnavi" class="noborder" style="margin-bottom: 40px;">
 					<?php previous_posts_link('<span class="prev">Prev</span>') ?>
 					<?php next_posts_link('<span class="next">Next</span>') ?>
-					<?php $wp_query = null; $wp_query = $temp;?>
 				</div><!--/generalnavi-->
 		</div><!--/wrap-->
 <?php get_footer(); ?>
