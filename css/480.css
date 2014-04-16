@@ -1,0 +1,1198 @@
+body { max-width: 480px; }
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------->>>>>> Display None */
+
+#headernav, #headercenter, #featuresthree, .toggle, .fcenter .flogo, .fcenter .fdesc, .post .avatar, .postfull .post-bottom .avatar, 
+
+.posttwofull:hover .hoverbg, .imgframetwo-leftalign .hover, #portfolio-one .item .imghover .pzoom, #portfolio-two .item .imghover .pzoom, #headeradsmall, #headeradbig,
+
+.singleaboutauthor .img { display: none; }
+
+
+
+/* ----------------------------------------------------------------------------------------->>>>>> Display Block */
+
+#mobilenavexpand, #rwdlogo { display: block !important; }
+
+
+
+/* ----------------------------------------------------------------------------------------->>>>>> Width 100%; */
+
+#topbarcenter, #searchexpand, .generalheadline h3, .widget-title, .widget-content, .sidebarsearch, .stweet, .wnewsletter, .g-item, .g-item .img,
+
+#portfolio-three .pthreecontent p, #portfolio-slider, #portfolio-slider .slide  { width: 100%;}
+
+
+
+/* ----------------------------------------------------------------------------------------->>>>>> Height auto */
+
+
+
+#featurestwo, #featurestwo .featcenter, #featuresfour .featcenter, #featuresone, #featuresone .featcenter, #clients, .clientscenter { height: auto !important; max-height: none; }
+
+
+
+
+
+
+
+/* Header section */
+
+header {
+
+	min-height: 50px;
+
+	height: auto;
+
+}
+
+
+#searchexpand fieldset{
+	
+	width: 420px;
+
+	margin: 0 auto;
+
+}
+
+
+#searchexpand .submit { width: 10%; }
+
+
+
+#mobilenavexpand {
+
+	width: 55px;
+
+	height: 50px;
+
+	background: #5d6b75 url(../images/mobilenavexapnd.png) no-repeat center center;
+
+	float: left;
+
+	margin-left: 3%;
+	
+	cursor: pointer;
+
+}
+
+
+
+#rwdlogo {
+
+	width: 38%;
+
+	float: left;
+
+	margin: 15px 0px 0px 10%;
+
+}
+
+
+
+#rwdlogo img { max-width: 100%; }
+
+
+
+#searchicon { margin-right: 3%; }
+
+
+
+#mobilenav {
+
+	width: 92%;
+
+	padding: 0px 4%;
+
+	overflow: hidden;
+
+	background: #4b5157;
+
+}
+
+
+
+#mobilenav a {
+
+	width: 100%;
+
+	padding: 10px 0px;
+
+	border-bottom: 1px solid #31373d;
+
+	display: block;
+
+	color: #fff;
+
+}
+
+#mobilenav a:hover{
+
+	color: #71878e;
+
+	text-decoration: none;
+
+}
+
+
+
+/* Top slider */
+
+#topslider .slide {
+
+	min-width: 2%;
+
+	max-width: 91% !important;
+
+	height: auto !important;
+
+	max-height: 380px !important;
+
+	top: 25px;
+
+	margin-left: 3%;
+
+}
+
+
+
+#topslider .slide p {  max-height: 100px !important; overflow: hidden; }
+
+
+
+#topslider .slide h3 {
+
+	width: 100%;
+
+	min-height: 64px;
+
+	height: auto;
+
+	display: block;
+
+}
+
+
+
+
+
+#topslider .left {
+
+	top: 80% !important;
+
+	left: 3%;
+
+}
+
+
+
+#topslider .right {
+
+	top: 80% !important;
+
+	right: 3%;
+
+}
+
+
+
+/* Features */
+
+#featuresfour { max-height: 2500px; }
+
+#featuresfour .featcenter {border: none;}
+
+#featurestwo {overflow: visible;}
+
+#featurestwo .featcenter, #featuresfour .featcenter, #featuresone .featcenter { 
+
+	width: 100%; 
+
+	max-height: none;
+
+	overflow: visible;
+
+}
+
+
+
+#featurestwo .feat, #featuresfour .item, #featuresone .feat {
+
+	width: 91%;
+
+	margin-left: 3%;
+
+	margin-bottom: 25px;
+
+	display: block;
+
+	overflow: hidden;
+
+}
+
+
+
+#featurestwo .feat .img { margin-left: 5px; }
+
+#featuresone {
+
+	max-height: none;
+
+	overflow: hidden;
+
+}
+
+
+
+#featurestwo .featcontent {
+
+	width: 70%;
+
+	float: left;
+
+	margin-left: 20px;
+
+}
+
+
+
+#wrap {
+
+	max-width: 100%;
+
+	margin-top: 0px;
+
+}
+
+
+
+/* Headlines */
+
+.headlinetwo {
+
+	max-width: 470px;
+
+	width: auto !important;
+
+	border: none;
+
+	margin: 0px;
+
+}
+
+
+
+.headlineone {
+
+	width: 90%;
+
+	padding: 5%;
+
+	margin-bottom: 20px;
+
+	float: none;
+
+}
+
+
+
+/* --------- Comercial page */
+
+
+
+#pricetables { 
+
+	width: 100%;
+
+	max-width: 470px; 
+
+}
+
+
+
+#pricetables .table {
+
+	width: 91%;
+
+	height: auto;
+
+	-float: none;
+
+	margin: 0px 0px 25px 3%;
+
+}
+
+
+
+#testimonials {
+
+	width: 72% !important;
+
+	height: 210px;
+
+	padding: 45px;
+
+	color: #fff;
+
+	background: #3c6da7;
+
+	margin: 0px 0 20px 3%;
+
+}
+
+
+
+/* Footer */
+
+
+
+.fcenter { 
+
+	width: auto;
+
+	max-width: 480px; 
+
+	overflow: hidden; 
+
+	display: block;
+
+}
+
+
+
+.fcenter nav .navtitle { margin-bottom: 15px; }
+
+
+
+.fcenter nav {
+
+	width: 90%;
+
+	float: left;
+
+	margin: 20px 0px 0px 3%;
+
+}
+
+
+
+.fcenter nav a { 
+
+	width: 100% !important; 
+
+	display: block ;
+
+	padding: 12px 0px 12px 16px;
+
+	border-bottom: 1px solid #3C474B;
+
+}
+
+
+
+.fcenter .socialmedia {
+
+	max-width: 91%;
+
+	margin: 22px 0px 0px 3%;
+
+}
+
+
+
+.rwdfsocial {
+
+	width: 210px;
+
+	margin: 0px auto;
+
+	height: 44px;
+
+	overflow: hidden;
+
+}
+
+
+
+.fcenter .socialmedia .item { margin-left: 4%; display: inline-block; }
+
+
+
+/* Corporate */
+
+.textboxone, .textboxtwo {
+
+	width: 94%;
+
+	float: none;
+
+	margin-left: 3%;
+
+}
+
+
+
+.ourworkitems {
+
+	width: 94%;
+
+	height: 154px;
+
+	float: left;
+
+	margin: 20px 0px 0px 3%;
+
+}
+
+
+
+.ourworkitems .item {
+
+	width: 32%;
+
+	height: 154px;
+
+	margin-left: 1%;
+
+}
+
+
+
+
+
+.clientscenter {
+
+	width: 100%;
+
+	overflow: hidden;
+
+}
+
+
+
+.clientscenter img {
+
+	width: 30%;
+
+	margin-left: 8%;
+
+	float: left;
+
+}
+
+
+
+.generalheadline {
+
+	width: 94%;
+
+	min-height: 63px;
+
+	line-height: 63px !important;
+
+	height: auto;
+
+	padding: 0px 3% 0px 3%;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.generalheadline h3 {
+
+	font-size: 24px;
+
+	color: #fff;
+
+	line-height: 43px !important;
+
+	padding: 10px 0px;
+
+}
+
+
+
+#content {
+
+	width: 94%;
+
+	padding: 0px 3%;
+
+}
+
+
+
+.post .postcontent { width: 88.5%; }
+
+
+
+.post .postcontent .img {
+
+	width: 100%;
+
+	height: auto !important;
+
+}
+
+
+
+.post .postcontent .readmore { margin-left: 32%; }
+
+
+
+#sidebar {
+
+	width: 94%;
+
+	margin-left: 3%;
+
+	margin-right: 15px !important;
+
+}
+
+
+
+.widget, .wtwitter, .wnewsletter, .socialmediacounter, .wflickr, .wfacebook, .sgallery /* general widgets classes */ { 
+
+	width: 100%;
+
+	margin-bottom: 30px;
+
+}
+
+
+
+.sidebarsearch { margin-left: 13%; }
+
+.newsletterinput, .newslettersubmit { width: 80%; }
+
+.wrecentblogpost .img { width: 20%; }
+
+.wrecentblogpost .title { width: 70%;}
+
+.g-item .content { width: 80%; }
+
+.g-item .right { left: 80%; }
+
+
+
+.postfull .img {
+
+	width: 100% !important;
+
+}
+
+.postfull .postcalign h3 { margin-top: 5px; }
+
+.postcalign { 
+
+	float: none;
+
+	width: 100% !important;
+
+}
+
+
+
+.postfull .postcalign .readmore {float: left;}
+
+
+
+#generalnavi {
+
+	width: 96%;
+
+	margin-left: 2%;
+
+}
+
+
+
+#posttwofull { width: 100% !important; }
+
+
+
+#posttwofull .posttwofull {
+
+	width: 91% !important;
+
+	height: auto !important;
+
+	padding: 4%;
+
+	float:none;
+
+	margin: 0px;
+
+	border: 1px solid #ededed;
+
+}
+
+
+
+
+
+.posttwofull .readmore { margin: 25px 0px 0px 0px !important; width: 80px;}
+
+
+
+.posttwohalfwrap {max-width: 480px !important;}
+
+.posttwohalfwrap .posttwofull {
+
+	width: 100% !important;
+
+	margin-left: 0px !important;
+
+	margin-right: 0px !important;
+
+}
+
+
+
+/*
+.posttwohalfwrap .posttwofull .img, 
+
+.posttwohalfwrap .posttwofull .img img { width: 100% !important;}
+*/
+
+
+.singledetails {height: 120px;}
+
+
+
+.singledetails .postdetails {
+
+	width: 100% !important;
+
+	float: none;
+
+}
+
+
+
+.singledetails .socialshare {
+
+	width: auto!important;
+
+	float: none;
+
+}
+
+
+
+.singleaboutauthor .abouttext {
+
+	width: 90%;
+
+	margin-left: 0px;
+
+}
+
+
+
+.singleaboutauthor {
+
+	height: auto;
+
+	display: block;
+
+	min-height: 130px;
+
+	padding-bottom: 10px;
+
+	overflow: hidden;
+
+}
+
+
+
+.singlepostrelated {
+
+	width: 100% !important;
+
+	overflow: hidden;
+
+	height: auto;
+
+}
+
+
+
+.singlepostrelated .item { width: 47% !important; }
+
+.singlepostrelated .item .hover, .singlepostrelated .item .img { width: 100% !important; }
+
+
+
+.singlepostrelated .item { 
+
+	max-height: 205px !important; 
+
+	height: auto !important; 
+
+	overflow: hidden; 
+
+	margin-bottom: 10px;	
+
+}
+
+
+
+.commnav {
+
+	width: 142px;
+
+	height: 66px;
+
+	display: block;
+
+	color: #5395cf;
+
+	float: none;
+
+}
+
+
+
+.commentscount .counter {
+
+	width: 590px;
+
+	height: 36px;
+
+	float: left;
+
+	font-size: 19px;
+
+	font-weight: 700;
+
+	color: #5d6b75;
+
+}
+
+
+
+.commentscount {
+
+	width: 100%;
+
+	height: 102px;
+
+	display: block;
+
+	line-height: 66px;
+
+}
+
+
+
+.commhead .name {
+
+	max-width: 340px;
+
+	height: 18px;
+
+	line-height: 18px;
+
+	float: none;
+
+	color: #5395cf; 
+
+	margin-right: 5px;
+
+
+
+}
+
+
+
+.wlastwork {
+
+	width: 100% !important;
+
+	height: auto !important;
+
+	float: none  !important;
+
+	margin-top: 0px  !important;
+
+}
+
+
+
+.wlastwork .item {
+
+	width: 40%;
+
+	height: 128px !important;
+
+	float: left;
+
+	margin: 0px 15px 15px 15px !important;
+
+}
+
+
+
+.wlastwork .item .hover {
+
+	width: 100%;
+
+	height: 128px !important;
+
+}
+
+
+
+
+
+.commhead time {
+
+	width: 155px;
+
+	height: 18px;
+
+	line-height: 18px;
+
+	text-decoration: underline;
+
+	float: none;
+
+}
+
+
+
+.comauthorrwd {
+
+	max-width: 340px;
+
+	float: left;	
+
+}
+
+
+
+.portfoliohead {
+
+	width: 96%;
+
+	margin-left: 2%;
+
+}
+
+
+
+.error-search { margin: 40px 0px 40px 18%; }
+
+
+
+.newsletterpagewidget {
+
+	margin: 20px 0px 0px 0px;
+
+	float: none;
+
+}
+
+
+
+.comins-text {
+
+	max-width: 480px;
+
+	margin: 40px 0px 40px 10px;
+
+	text-align: center;
+
+	float: none;
+
+}
+
+
+
+#contactform {
+
+	width: 100%;
+
+
+
+}
+
+
+
+#contactform .item {width: 96%; margin-left: 2%;}
+
+
+
+#contactform .item input, #contactform textarea {width: 80% !important;}
+
+
+
+#address {
+
+	width: 100%;
+
+	margin: 20px 0px 45px 15px;
+
+	font-size: 24px;
+
+}
+
+
+
+#address .local {width: 100%;}
+
+
+
+#address .contactdetails {width: 100%;}
+
+
+
+#contact-map {width: 100%;}
+
+
+
+.contact-twitter { 
+
+	float: none; 
+
+	margin-left: 0px;
+
+}
+
+
+
+.twohalf {
+
+	width: 100%;
+
+	float: none;
+
+	margin-right: 10px;
+
+}
+
+
+
+.threequarter {
+
+	width: 100%;
+
+	float: none;
+
+	margin-right: 10px !important;
+
+}
+
+
+
+.fourquarter {
+
+	width: 100%;
+
+	float: none;
+
+	margin-right: 10px;
+
+}
+
+
+
+.threefourth {
+
+	width: 100%;
+
+	float: none;
+
+}
+
+
+
+.twohalf p, .threequarter p, .fourquarter p, .threefourth p { width: 100% !important; }
+
+
+
+.imglisth article {width: 55%;}
+
+
+
+.imgframetwo {width: 100% !important;}
+
+
+
+.imgframetwo-leftalign {
+
+	width: 150px !important;
+
+	overflow: hidden;
+
+}
+
+
+
+#portfolio-one, #portfolio-one .item, #portfolio-two, #portfolio-two .item, #portfolio-three .item, #portfolio-three, #portfolio-four, #portfolio-four .item {width: 100% !important;}
+
+
+
+#portfolio-one .item, #portfolio-two .item { height: 320px;}
+
+
+
+#portfolio-one .item .imghover, #portfolio-two .item .imghover {
+
+	width: 100%;
+
+	height: 320px;
+
+	position: absolute;
+
+	top: 0px;
+
+	background: transparent;
+
+}
+
+
+
+#portfolio-one .item .imghover .plink, #portfolio-two .item .imghover .plink {height: 240px;}
+
+
+
+#portfolio-three .img {
+
+	width: 100%;
+
+	float: none;
+
+}
+
+
+
+#portfolio-three .pthreecontent {
+
+	width: 95%;
+
+	float: none;
+
+	margin-left: 2%;
+
+}
+
+
+
+#portfolio-slider {height: 200px !important;}
+
+
+
+#portfolio-slider .slide {height: auto !important;}
+
+
+
+#portfolio-three .pthreecontent h3 { margin-top: 10px;}
+
+
+
+#portfolio-slider .left, #portfolio-slider .right {top: 40%;}
+
+
+
+.portfoliorelated {
+
+	width: 100% !important;
+
+	height: 150px;
+
+	overflow: hidden;
+
+	margin-top: 0px !important;
+
+	margin-bottom: 60px;
+
+	margin-left: 5px;
+
+}
+
+
+
+.sidebarsearch 	{ margin-left: 10px;}
+
+
+
+.imglistv {
+
+	width: 46%;
+
+	margin-right: 10px;
+
+}
+
+
+
+.imglisth .img {
+
+	width: 30%;
+
+	height: 70px;
+
+	display: block;
+
+}
+
+
+
+.imglisth .img img { width: 100%;}
+
+
+
+.imglisth article { 
+
+	margin-left: 5px;
+
+	width: 60%;
+
+}
+
+.close_menu {
+	display: none !important;
+}
+
+.open_menu{
+	display: block !important;
+}
+
+
+.fcenter {
+	padding-top: 1px !important;
+}
+
+
+#searchexpand fieldset{
+	width: 265px;
+	margin: 0 auto;
+}
+
+
+#searchexpand  .search {
+	width: 200px;
+}
+
+.fcenter{
+	width: 100%;
+}
+
+.fcenter .socialmedia {
+	width: 75%;
+	margin-left: 12%;
+}
+.footer-bottom .fcenter{
+
+	min-height: 150px;
+
+}
