@@ -27,14 +27,14 @@
 					$wp_query = new WP_Query();
 					$wp_query->query('paged='.$paged.'&post_type=post&showposts=4');
 
-					while ($wp_query->have_posts()) : $wp_query->the_post();
+					while ($wp_query->have_posts() ) : $wp_query->the_post();
 						?>
 						<div class="post">
 
 							<aside class="avatar">
 
 								<div class="img"><?php echo get_avatar(get_the_author_meta('ID'),68); ?></div>
-								<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' )); ?>"><?php the_author(); ?></a>
+								<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a>
 
 							</aside><!--/avatar-->
 
@@ -56,22 +56,22 @@
 
 									<section class="post-details">
 											<?php
-												_e('On ','premium-code');
+												_e('On ', 'premium-code');
 												echo get_the_date('F d S, Y').'&#183;';
 												echo '<a href="'.get_comments_link().'">';
 												comments_number( ' no comments ', ' one comment ', ' % comments ' );
 												echo '</a>&#183;';
 												
 												$cat = get_the_category();
-												if(!empty($cat)) :
-												_e(' In ','premium-code');
+												if ( !empty($cat) ) :
+												_e(' In ', 'premium-code');
 												$nr_of_cat = 0;
-												foreach($cat as $cat_item):
+												foreach ($cat as $cat_item):
 													$nr_of_cat++;
 												endforeach;
 												$count = 1;
-												foreach($cat as $cat_item):
-													if($count != $nr_of_cat)
+												foreach ($cat as $cat_item):
+													if ( $count != $nr_of_cat)
 														echo '<a class="sub-link" href="'.get_category_link($cat_item->cat_ID).'">'.$cat_item->cat_name.'</a> , ';
 													else
 														echo '<a class="sub-link" href="'.get_category_link($cat_item->cat_ID).'">'.$cat_item->cat_name.'</a>';
@@ -83,7 +83,7 @@
 
 									<?php the_excerpt(); ?>
 
-									<div class="readmore simplebutton blue"><a href="<?php the_permalink(); ?>"><?php _e('Read More','premium-code'); ?></a></div>
+									<div class="readmore simplebutton blue"><a href="<?php the_permalink(); ?>"><?php _e('Read More', 'premium-code'); ?></a></div>
 
 								</div><!--/postcalign-->
 
