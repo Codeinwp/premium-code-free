@@ -258,6 +258,5 @@
 				
 			</div><!--/headercenter-->
 
-		</header>
-
-		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+		</header>		<?php if ( get_header_image() != '' ) : ?>
+			<img id='header_image' src="<?php header_image(); ?>" 				height="<?php echo get_custom_header()->height; ?>" 				width="<?php echo get_custom_header()->width; ?>" alt="" />		<?php endif; ?>				
