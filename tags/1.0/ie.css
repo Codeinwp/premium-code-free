@@ -1,60 +1,0 @@
-.fcenter nav a { background-image: url(images/liplusie.png); }
-
-#topslider .slide .slidebutton {
-	color: #5395cf !important;
-	background-color: #fff !important;
-}
-
-.newsletterinput { line-height: 44px; }
-
-.wflickr .item .hover {
-	top: 50px !important;
-	z-index: 10!important;
-	background: none !important;
-}
-
-				.simplebutton.red:hover { 
-					background: #f8a899; 
-					color: #fff; 
-				}
-				
-				.simplebutton.orange:hover { 
-					background: #eccaa3; 
-					color: #fff; 
-				}
-
-				.simplebutton.blue:hover { 
-					background: #7bb8ed; 
-					color: #fff; 
-				}
-
-				.simplebutton.cyan:hover { 
-					background: #90dbcc; 
-					color: #fff; 
-				}
-
-				.simplebutton.green:hover { 
-					background: #78e08c; 
-					color: #fff; 
-				}
-
-				.simplebutton.pink:hover { 
-					background: #e58fb5; 
-					color: #fff; 
-				}
-
-				.simplebutton.light-gray:hover { 
-					background: #9aa6a7; 
-					color: #fff; 
-				}
-
-				.simplebutton.gray:hover, .singletag { 
-					background: #86939d; 
-					color: #fff; 
-				}
-
-#contactform .item input { line-height: 43px; }
-
-#content blockquote.roundcomma:before, #content blockquote.roundcomma:after { display: none; }
-
-.imgframetwo .hover { background: #222; }
