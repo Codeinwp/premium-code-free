@@ -29,7 +29,7 @@
 					</div><!--/commentscount-->
 					<?php comments_template();?>
 				</div><!--/commentlist-->
-				<div class="headingsix"><?php _e('Leave a Comment','premium-code'); ?></div>	
+				<div class="headingsix"><?php _e('Leave a Comment', 'premium-code'); ?></div>	
 					<?php
 					$comments_args = array(
 								'label_submit'=>'POST',
@@ -44,14 +44,14 @@
 					);
 					echo '<div id="commentform">';
 						echo '<fieldset>';
-							comment_form($comments_args);
+							comment_form( $comments_args );
 						echo '</fieldset>';
 					echo '</div>';
 				?>
 			</div><!--/content-wrap-right-->
 			
 			<div id="sidebar" class="fleft sidebarright">
-				<?php get_sidebar('rightsidebar'); ?>
+				<?php get_sidebar( 'rightsidebar' ); ?>
 			</div><!--/sidebar-->
 		</div><!--/wrap-->
 <?php	

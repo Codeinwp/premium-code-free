@@ -16,11 +16,11 @@ get_header(); ?>
 					'after'  => '</div>',
 				) );
 				?>
-				<div class="ordernow"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e('Go Home','premium-code');?></a></div>
+				<div class="ordernow"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e( 'Go Home', 'premium-code' );?></a></div>
 			</div><!--/portfoliohead-->
 			<div class="comingsoon-widgetarea">
 			<?php
-				dynamic_sidebar('comingsoon_widgets_area');
+				dynamic_sidebar( 'comingsoon_widgets_area' );
 			?>
 			</div>
 		</div><!--/wrap-->
