@@ -29,7 +29,7 @@
 					</div><!--/commentscount-->
 					<?php comments_template();?>
 				</div><!--/commentlist-->
-				<div class="headingsix"><?php _e('Leave a Comment','premium-code'); ?></div>
+				<div class="headingsix"><?php _e('Leave a Comment', 'premium-code'); ?></div>
 					<?php		
 					$comments_args = array(
 								'label_submit'=>'POST',
@@ -50,7 +50,7 @@
 				?>
 
 			</div><!--/content-wrap-right-->
-			<?php get_sidebar('leftsidebar'); ?>
+			<?php get_sidebar( 'leftsidebar' ); ?>
 			
 		</div><!--/wrap-->
 <?php	
